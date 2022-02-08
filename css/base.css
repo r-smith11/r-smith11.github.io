@@ -146,7 +146,7 @@ body {
     position: relative;
     border-style: solid;
     border-width: 5px;
-    border-image-source: url(C:/Users/rsmit/Downloads/gradient.png);
+    border-image-source: url(images/gradient.png);
     border-image-slice: 60 30;
     z-index: 1;
 }
