@@ -1,2 +1,3 @@
-# r-smith11.github.io
+# Ryan Smith
+
 Personal Website via GitHub Pages.
