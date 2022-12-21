@@ -145,7 +145,8 @@ body {
     height: auto;
     position: relative;
     border-style: solid;
-    border-width: 5px;
+    border-width: 0.3vw;
+    margin-top: -2.7vw;
     border-image-source: linear-gradient(to bottom, #e66465, #9198e5);
     border-image-slice: 60 30;
     z-index: 1;
@@ -160,10 +161,12 @@ body {
 
 .resume {
     font-size: 3vw;
+    margin-top: -4vw;
 }
 
 .contact {
     font-size: 3vw;
+    margin-top: -4vw;
 }
 
 .home {
@@ -172,8 +175,9 @@ body {
 
 .about {
     font-size: 2vw;
-    padding-left: 50px;
-    padding-right: 50px;
+    margin-top: -3.5vw;
+    padding-left: 5vw;
+    padding-right: 5vw;
 }
 
 .title--about {
@@ -219,6 +223,7 @@ a:visited {
 
 .subtitle--intro {
     font-size: 3vw;
+    margin-top: -0.7vw;
     color: white;
     display: block;
 }
