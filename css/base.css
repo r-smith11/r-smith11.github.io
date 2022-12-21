@@ -237,3 +237,30 @@ a:visited {
     min-height: 100%;
     z-index: -1;
 }
+
+.title--projects {
+    font-size: 4vw;
+    background: linear-gradient(#e66465, #9198e5);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.projects {
+    font-size: 2vw;
+    margin-top: -3.5vw;
+    padding-left: 5vw;
+    padding-right: 5vw;
+}
+
+.scannAR {
+    display: inline-block;
+    width: 40vw;
+    height: auto;
+    position: relative;
+    border-style: solid;
+    border-width: 0.3vw;
+    margin-top: -2.7vw;
+    border-image-source: linear-gradient(to bottom, #e66465, #9198e5);
+    border-image-slice: 60 30;
+    z-index: 1;
+}
