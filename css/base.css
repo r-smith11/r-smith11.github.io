@@ -246,21 +246,19 @@ a:visited {
 }
 
 .projects {
+    display: flex;
     font-size: 2vw;
     margin-top: -3.5vw;
+    margin-right: 40vw;
     padding-left: 5vw;
-    padding-right: 5vw;
+    padding-right: 0vw;
 }
 
 .scannAR {
-    display: inline-block;
-    width: 40vw;
+    display: flex;
+    width: 15vw;
     height: auto;
-    position: relative;
-    border-style: solid;
-    border-width: 0.3vw;
-    margin-top: -2.7vw;
-    border-image-source: linear-gradient(to bottom, #e66465, #9198e5);
-    border-image-slice: 60 30;
+    position: absolute;
+    margin-left: 60vw;
     z-index: 1;
 }
