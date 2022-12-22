@@ -246,19 +246,31 @@ a:visited {
 }
 
 .projects {
-    display: flex;
+    display: block;
     font-size: 2vw;
     margin-top: -3.5vw;
-    margin-right: 40vw;
     padding-left: 5vw;
-    padding-right: 0vw;
+    padding-right: 5vw;
 }
 
 .scannAR {
-    display: flex;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
     width: 15vw;
     height: auto;
-    position: absolute;
-    margin-left: 60vw;
     z-index: 1;
+}
+
+.wordle {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 15vw;
+    height: auto;
+    z-index: 1;
+}
+
+.bigger-text {
+    font-size: 2.5vw;
 }
